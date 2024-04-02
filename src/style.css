@@ -1,0 +1,101 @@
+/*Emmas Style Template*/
+footer {
+  position: fixed;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#EmmaLogo {
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#EmmasWorldClock {
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+html {
+  width: 800px;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  vertical-align: middle;
+  justify-content: space-around;
+  background-color: #f6ebe6;
+}
+
+a {
+  color: #05576f;
+}
+
+a:hover {
+  font-weight: 700;
+}
+/*World Clock Styles*/
+input {
+  display: block;
+}
+label {
+  font-size: 16pt;
+  line-height: 18pt;
+}
+
+#SignupBtn {
+  background-color: #05576f;
+  color: azure;
+  border-radius: 10%;
+  height: 25pt;
+  width: 150pt;
+  text-transform: uppercase;
+  margin-top: 16px !important;
+  padding: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: block;
+  margin: 0 auto;
+}
+
+.textInput {
+  line-height: 19pt;
+  width: 500px;
+  text-align: center;
+  border-color: #05576f;
+  height: 25pt;
+  font-size: 18pt;
+}
+.textInput:hover {
+  background-color: #e8f0fe;
+  cursor: text;
+}
+
+.radioButtons {
+  display: flex;
+  margin-top: 10px;
+}
+
+.radioButtonQuestion {
+  margin-right: 30px;
+}
+.selector {
+  line-height: 19pt;
+  width: 500px;
+  text-align: center;
+  border-color: #05576f;
+  height: 25pt;
+  font-size: 18pt;
+}
+.selector:hover {
+  background-color: #e8f0fe;
+  cursor: text;
+}
