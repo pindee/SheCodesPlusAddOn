@@ -5,9 +5,15 @@ function updateTime() {
 
   let updateClock = function () {
     let currentTime = moment();
-    let city = citySelect.value;
-    let time = currentTime.tz(city).format("h:mm:ss A");
-    let date = currentTime.tz(city).format("dddd, MMMM D, YYYY");
+    let cityquery = citySelect.value;
+    let city = citySelect.value.split("/")[1];
+    if (cityquery === "current") {
+      cityquery = moment.tz.guess();
+      city = moment.tz.guess().split("/")[1];
+    }
+
+    let time = currentTime.tz(cityquery).format("h:mm:ss [<small>]A</small>");
+    let date = currentTime.tz(cityquery).format("dddd, MMMM D, YYYY");
 
     selectedCity.innerHTML = city;
     CityTime.innerHTML = time;

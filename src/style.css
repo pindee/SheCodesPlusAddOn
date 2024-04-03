@@ -11,6 +11,10 @@ footer {
   margin: 0 auto;
 }
 
+h1 {
+  text-align: center;
+}
+
 html,
 body {
   height: 100%;
