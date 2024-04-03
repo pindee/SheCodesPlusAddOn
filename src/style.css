@@ -24,6 +24,29 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 16px;
+}
+
+.city {
+  margin: 8px;
+  padding: 4px;
+  background-color: rgba(5, 87, 111, 0.1);
+}
+
+.date {
+  display: inline-block;
+  color: #05576f;
+  font-weight: 600;
+}
+.time {
+  display: inline-block;
+  margin-left: 450px;
+  font-size: 30pt;
+  color: #89833a;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: -40px;
+  font-weight: bold;
 }
 html {
   width: 800px;
@@ -94,6 +117,7 @@ label {
   border-color: #05576f;
   height: 25pt;
   font-size: 18pt;
+  margin-bottom: 16px;
 }
 .selector:hover {
   background-color: #e8f0fe;
