@@ -32,6 +32,7 @@ body {
   margin: 8px;
   padding: 4px;
   background-color: rgba(5, 87, 111, 0.1);
+  text-transform: capitalize;
 }
 
 .date {
